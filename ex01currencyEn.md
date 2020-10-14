@@ -11,8 +11,8 @@ Banking service providing data [NBP](http://api.nbp.pl/)
 # Scope of the task
 
   1. Importing modules
-  2. module [urllib.request](#module_urllib.request )
-  3. [File formats](#json_csv) `json` and `csv`
+  2. module [urllib.request](#module_urllib.request)
+  3. [File formats](#json and csv) `json` and `csv`
   2. [Scripts](#scripts)
 
 
@@ -125,7 +125,7 @@ Basic use of the module:
   - `.decode()` - metoda konwertująca typ danych `bajt` na `str`
 
 
-# 3. JSON CSV
+# 3. Json and csv
 
 About `json`:
 >,,JavaScript Object Notation (JSON, pronounced /ˈdʒeɪsən/; also /ˈdʒeɪˌsɒn/[note 1]) is an open standard file format, and data interchange format, that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and array data types (or any other serializable value). It is a very common data format, with a diverse range of applications, such as serving as a replacement for XML in AJAX systems.''
