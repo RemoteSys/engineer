@@ -125,7 +125,7 @@ Basic use of the module:
   - `.decode()` - metoda konwertująca typ danych `bajt` na `str`
 
 
-# 3. Json and csv
+# Json and csv
 
 About `json`:
 >,,JavaScript Object Notation (JSON, pronounced /ˈdʒeɪsən/; also /ˈdʒeɪˌsɒn/[note 1]) is an open standard file format, and data interchange format, that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and array data types (or any other serializable value). It is a very common data format, with a diverse range of applications, such as serving as a replacement for XML in AJAX systems.''
