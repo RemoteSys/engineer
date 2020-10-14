@@ -1,4 +1,4 @@
-# Zadanie 1
+# Task 1
 
 Write a script giving current currency and gold rates downloaded from the website. Functionality of the script:
 
@@ -8,7 +8,7 @@ Write a script giving current currency and gold rates downloaded from the websit
 
 Banking service providing data [NBP](http://api.nbp.pl/)
 
-# Zakres ćwiczenia
+# Scope of the task
 
   1. Importing modules
   2. module [urllib.request](#module_urllib.request )
