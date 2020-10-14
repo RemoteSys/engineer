@@ -12,7 +12,7 @@ Banking service providing data [NBP](http://api.nbp.pl/)
 
   1. Importing modules
   2. module [urllib.request](#module_urllib.request)
-  3. [File formats](#json and csv) `json` and `csv`
+  3. [File formats](#json-and-csv) `json` and `csv`
   2. [Scripts](#scripts)
 
 
