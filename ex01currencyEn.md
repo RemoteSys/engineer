@@ -147,7 +147,7 @@ About `csv`
 
 
 
-# 4. Scripts
+# Scripts
 
 Basic information about creating scripts can be found in the  [GitHub](https://github.com/RemoteSys/entry/blob/master/scriptsInfo.md).
 
