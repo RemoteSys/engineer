@@ -11,13 +11,13 @@ Banking service providing data [NBP](http://api.nbp.pl/)
 # Scope of the task
 
   1. Importing modules
-  2. Module urllib.request [see](#2.-module-urllib.request)
-  3. File formats [see](#3.-json-and-csv) `json` and `csv`
-  2. Scripts [see](#4.-scripts)
+  2. [Module urllib.request](#module-urllib.request)
+  3. [File formats](#json-and-csv) `json` and `csv`
+  2. [Scripts](#scripts)
 
 
 
-# A. Importing modules
+# Importing modules
 
 Ways to import modules:
 
@@ -39,7 +39,7 @@ sys.path[0]
 ```
 
 
-### 1.2. Importing all module functionalities
+### 2. Importing all module functionalities
 
 Import all mathematical functions from the module `math`:
 
@@ -53,7 +53,7 @@ from math import *
 
 
 
-### 1.3. Importing selected module functionalities
+### 3. Importing selected module functionalities
 
 Import the cosine function from the module`math`:
 ```python
@@ -67,7 +67,7 @@ cos(3.14)
 
 
 
-### 1.4. Import with name change - alias
+### 4. Import with name change - alias
 
 Import the `numpy` module with an alias `np`: 
 ```python
@@ -79,7 +79,7 @@ import numpy as np
 (from *https://numpy.org/doc/stable/user/absolute_beginners.html*)
 
 
-#### 1.5. Importing custom modules
+#### 5. Importing custom modules
 
 A simple way to import your own modules, which do not have to be permanently available, is to add their directory address to the temporary search path. Example:
 
@@ -96,7 +96,7 @@ import foo
 
 ```
 
-#### 1.6.Re-loading the module
+#### 6.Re-loading the module
 
 While working with the program code, changes are made. For the changes to be "noticed" in the system, it is necessary to reload the module in which the changes were made. The function `reload()` from the module `importlib` is used for this task:
 
@@ -112,7 +112,7 @@ Information about the module `importlb`: *https://docs.python.org/3/library/impo
 
 
 
-# 2. Module urllib.request
+# Module urllib.request
 
 >,,The urllib.request module defines functions and classes which help in opening URLs (mostly HTTP) in a complex world — basic and digest authentication, redirections, cookies and more.''
 
@@ -125,7 +125,7 @@ Basic use of the module:
   - `.decode()` - a method converting the data type `byte` to `str`
 
 
-# 3. Json and csv
+# Json and csv
 
 About `json`:
 >,,JavaScript Object Notation (JSON, pronounced /ˈdʒeɪsən/; also /ˈdʒeɪˌsɒn/[note 1]) is an open standard file format, and data interchange format, that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and array data types (or any other serializable value). It is a very common data format, with a diverse range of applications, such as serving as a replacement for XML in AJAX systems.''
@@ -139,7 +139,7 @@ About `csv`
 (from *https://en.wikipedia.org/wiki/Comma-separated_values*)
 
 
-#### 3.1. Modules
+#### Modules
 
   - `json` - json encoder and decoder. Moduł biblioteki standardowej, wymaga zaimportowania:  `import json`
   - `csv` - csv file reading and writing. Moduł biblioteki standardowej,  wymaga zaimportowania:  `import csv`
