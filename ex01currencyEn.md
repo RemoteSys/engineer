@@ -11,9 +11,9 @@ Banking service providing data [NBP](http://api.nbp.pl/)
 # Scope of the task
 
   1. Importing modules
-  2. Module [urllib.request](#2.-module-urllib.request)
-  3. [File formats](#3.-json-and-csv) `json` and `csv`
-  2. [Scripts](#4.-scripts)
+  2. Module urllib.request [see](#2.-module-urllib.request)
+  3. File formats [see](#3.-json-and-csv) `json` and `csv`
+  2. Scripts [see](#4.-scripts)
 
 
 
@@ -112,7 +112,7 @@ Information about the module `importlb`: *https://docs.python.org/3/library/impo
 
 
 
-# 2. Module urllib.request 
+# 2. Module urllib.request
 
 >,,The urllib.request module defines functions and classes which help in opening URLs (mostly HTTP) in a complex world — basic and digest authentication, redirections, cookies and more.''
 
@@ -120,9 +120,9 @@ Information about the module `importlb`: *https://docs.python.org/3/library/impo
 
 Basic use of the module:
 
-  - `urllib.request.urlopen()` - wysyłanie zapytania  
-  - `.read()` - metoda obiektu `urllib.request.urlopen()` wczytująca otrzymane dane
-  - `.decode()` - metoda konwertująca typ danych `bajt` na `str`
+  - `urllib.request.urlopen()` - sending a request 
+  - `.read()` - object method `urllib.request.urlopen()` loading received data
+  - `.decode()` - a method converting the data type `byte` to `str`
 
 
 # 3. Json and csv
