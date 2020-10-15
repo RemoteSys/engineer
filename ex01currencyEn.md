@@ -112,7 +112,7 @@ Information about the module `importlb`: *https://docs.python.org/3/library/impo
 
 
 
-# Module urllib.request
+# Module urllib request
 
 >,,The urllib.request module defines functions and classes which help in opening URLs (mostly HTTP) in a complex world — basic and digest authentication, redirections, cookies and more.''
 
@@ -147,7 +147,7 @@ About `csv`
 
 
 
-# C. Scripts
+# Scripts
 
 Basic information about creating scripts can be found in the  [GitHub](https://github.com/RemoteSys/entry/blob/master/scriptsInfo.md).
 
