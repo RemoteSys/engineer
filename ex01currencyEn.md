@@ -17,11 +17,11 @@ Banking service providing data [NBP](http://api.nbp.pl/)
 
 
 
-# 1. Importing modules
+# A. Importing modules
 
 Ways to import modules:
 
-### 1.1. Importing the whole module
+### 1. Importing the whole module
 Import (sample) module from standard library `sys`:
 
 ```python
@@ -147,7 +147,7 @@ About `csv`
 
 
 
-# 4. Scripts
+# C. Scripts
 
 Basic information about creating scripts can be found in the  [GitHub](https://github.com/RemoteSys/entry/blob/master/scriptsInfo.md).
 
