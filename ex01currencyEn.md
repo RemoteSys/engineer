@@ -11,7 +11,7 @@ Banking service providing data [NBP](http://api.nbp.pl/)
 # Scope of the task
 
   1. Importing modules
-  2. [Module urllib.request](#module-urllib.request)
+  2. [Module urllib.request](#module-urllib-request)
   3. [File formats](#json-and-csv) `json` and `csv`
   2. [Scripts](#scripts)
 
