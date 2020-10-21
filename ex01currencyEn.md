@@ -13,7 +13,8 @@ Banking service providing data [NBP](http://api.nbp.pl/)
   1. Importing modules
   2. [Module urllib.request](#module-urllib-request)
   3. [File formats](#json-and-csv) `json` and `csv`
-  2. [Scripts](#scripts)
+  4. [Scripts](#scripts)
+  5. [Supplementary information](#supplementary-information)
 
 
 
@@ -152,4 +153,27 @@ About `csv`
 Basic information about creating scripts can be found in the  [GitHub](https://github.com/RemoteSys/entry/blob/master/scriptsInfo.md).
 
 An example of a simple script can be found in the file at [GitHub](https://github.com/RemoteSys/entry/blob/master/testScript.py).
+
+
+# Supplementary information
+
+#### HTTP 404
+
+This error message indicates:
+> ''... that the browser was able to communicate with a given server, but the server could not find what was requested''
+
+from [Wikipedia](https://en.wikipedia.org/wiki/HTTP_404)
+
+#### Exception Handling in Python
+
+ 1. The `try/except`' instruction block is used to handle errors in Python, see [here](https://docs.python.org/3/tutorial/errors.html)
+ 2. `sys.exc_info()`:
+   >''This function returns a tuple of three values that give information about the exception that is currently being handled.''
+   see [here](https://docs.python.org/3/library/sys.html)
+
+---
+
+
+
+
 
