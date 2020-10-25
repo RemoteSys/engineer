@@ -63,7 +63,7 @@ In the next class, the notepad will be used for automatic data preparation - exa
 
 ### 3. Data preprocessing
 
-Data preparation (see notebook) includes:
+Data preparation (see [firstNot.ipynb](https://github.com/RemoteSys/engineer/blob/master/notebooks/firstNot.ipynb)) includes:
 
   - selecting the required columns from the data table
   - shortening, unification of column names
