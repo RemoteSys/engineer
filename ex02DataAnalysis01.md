@@ -1,6 +1,6 @@
 # Task
 
-Based on the material processed in class (see [firstNot.ipynb](https://github.com/RemoteSys/engineer/blob/master/firstNot.ipynb), prepare your own jupyter notebook, which will allow you to quickly prepare the data - as described in the section ['Preparation of data'](#preparation-of-data)
+Based on the material processed in class (see [firstNot.ipynb](https://github.com/RemoteSys/engineer/blob/master/notebooks/firstNot.ipynb), prepare your own jupyter notebook, which will allow you to quickly prepare the data - as described in the section ['Preparation of data'](#preparation-of-data)
 
 
 *Explanation*:
