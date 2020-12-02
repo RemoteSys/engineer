@@ -1,0 +1,13 @@
+name: scikit
+channels:
+    - conda-forge
+dependencies:
+    - rasterio
+    - matplotlib
+    - numpy
+    - pandas
+    - scikit-learn
+    - fiona
+    - shapely
+    - ipykernel
+    - ipython
