@@ -1,13 +1,11 @@
-name: scikit
+name: lab3
 channels:
     - conda-forge
 dependencies:
-    - rasterio
     - matplotlib
     - numpy
     - pandas
     - scikit-learn
-    - fiona
-    - shapely
+    - pillow
     - ipykernel
     - ipython
