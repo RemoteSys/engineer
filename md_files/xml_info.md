@@ -30,7 +30,7 @@ Prepare a set of several dozen rows with three columns:
  - import module: `import xml.etree.ElementTree as ET`  
  - get a list of all tags in the file - write a recursive function  
  - select tags with useful information   
- - create a list: `country_codes = [[country name, currency code],...]`  
+ - create a list: `country_codes = [[country name, currency code, continent name],...]`  
  - save the list as csv file - `csv module`  
  - edit the list in an editor or spreadsheet and select several dozen countries (e.g. 50): simple names and one unique currency code  
  - add a column and add the name of the continent in it  
