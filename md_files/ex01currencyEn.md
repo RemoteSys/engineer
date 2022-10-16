@@ -51,8 +51,6 @@ Write a script showing the current exchange rates downloaded from the website. S
       --- \templates
           + templ1.html
           + templ2.html
-  
-      --- \tests
 
 
    -- \proj_02
