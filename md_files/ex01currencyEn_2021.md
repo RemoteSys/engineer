@@ -49,6 +49,11 @@ Banking service that provides data: [NBP](http://api.nbp.pl/)
 
 # Additional_information
 
+##  ISO 4217
+
+Currency Code Maintenance:
+ - [codes](https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-one.xml)
+
 ### Script template
 
 For basic information on creating scripts, see the document on the [GitHub](https://github.com/RemoteSys/entry/blob/master/e06_about_scripts.md).

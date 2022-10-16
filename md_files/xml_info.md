@@ -1,4 +1,4 @@
-# XMl  
+# XMl
   
  - `xml`: eXtensible Markup Language  
  - info / tutorial: [w3schools](https://www.w3schools.com/xml/xml_whatis.asp)  
@@ -6,7 +6,7 @@
 # Download currency codes  
   
 Download the file with currency codes from the website:   
- - [www](https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-one.xml)  
+ - `https://www.six-group.com/dam/download/financial-information/data-center/iso-currrency/lists/list-one.xml`  
   
  - to download, use the `requests` module, using the context manager: `with requests.sessions.Session() as session:`  
   
@@ -66,9 +66,9 @@ Create a new xml file with the structure:
   - `for item in country_codes`:  
   
  3. Add data to an xml file e.g.:  
-    - `country = ET.SubElement(root,'country')`  
-    - `name = ET.SubElement(country,'name')`  
-    - `name.text = 'Poland'`  
+  - `country = ET.SubElement(root,'country')`  
+  - `name = ET.SubElement(country,'name')`  
+  - `name.text = 'Poland'`  
   
   
 # XML: searching for data  
