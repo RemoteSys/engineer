@@ -26,7 +26,8 @@ Write a script showing the current exchange rates downloaded from the website. S
 # Project
 ### Directory structure
 
-  - root directory: contains the script file
+  - root directory: contains the script file e.g. `proj_01`
+  - r
   - subdirectory e.g. `modules` or `src`: contains module files
      - module with functions
      - module that provides data on currency codes
@@ -35,21 +36,27 @@ Write a script showing the current exchange rates downloaded from the website. S
  >Example:  
 
   ```
-  - root
-    + script_file.py
+  - my_pythons
 
-    -- src
-       + functions.py
- 
-    -- data
-       + some.csv
-       + some.xml
+    -- proj_01
+       + script_file.py
+  
+      --- src
+          + functions.py
+   
+      --- data
+          + some.csv
+          + some.xml
+  
+      --- templates
+          + templ1.html
+          + templ2.html
+  
+      --- tests
 
-    -- templates
-       + templ1.htm
-       + templ2.html
 
-    -- tests
+   -- proj_02
+  
   ```
 
 ### Bank service
