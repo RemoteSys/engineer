@@ -35,11 +35,21 @@ Write a script showing the current exchange rates downloaded from the website. S
  >Example:  
 
   ```
-  -root
-    --src
-    --data
-    --templates
-    --tests
+  - root
+    + script_file.py
+
+    -- src
+       + functions.py
+ 
+    -- data
+       + some.csv
+       + some.xml
+
+    -- templates
+       + templ1.htm
+       + templ2.html
+
+    -- tests
   ```
 
 ### Bank service
