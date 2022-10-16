@@ -36,26 +36,26 @@ Write a script showing the current exchange rates downloaded from the website. S
  >Example:  
 
   ```
-  - my_pythons
+  - C:\my_pythons
 
-    -- proj_01
+    -- \proj_01
        + script_file.py
   
-      --- src
+      --- \src
           + functions.py
    
-      --- data
+      --- \data
           + some.csv
           + some.xml
   
-      --- templates
+      --- \templates
           + templ1.html
           + templ2.html
   
-      --- tests
+      --- \tests
 
 
-   -- proj_02
+   -- \proj_02
   
   ```
 
