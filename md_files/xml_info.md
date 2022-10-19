@@ -46,14 +46,14 @@ Create a new xml file with the structure:
 <currency_codes>  
   
   <country>  
-    <name>country name</country name>  
-    <code>currency code</currency code>  
+    <name>country name</name>  
+    <code>currency code</code>  
     <region>continent name</region>  
   </country>  
   
   <country>  
-    <name>country name</country name>  
-    <code>currency code</currency code>  
+    <name>country name</name>  
+    <code>currency code</code>  
     <region>continent name</region>  
   </country>  
   
