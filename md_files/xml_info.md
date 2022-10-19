@@ -2,6 +2,7 @@
   
  - `xml`: eXtensible Markup Language  
  - info / tutorial: [w3schools](https://www.w3schools.com/xml/xml_whatis.asp)  
+ - Python [xml doc](https://docs.python.org/3/library/xml.html)
   
 # Download currency codes  
   
