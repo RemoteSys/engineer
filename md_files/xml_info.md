@@ -71,7 +71,15 @@ Create a new xml file with the structure:
   - `name = ET.SubElement(country,'name')`  
   - `name.text = 'Poland'`  
   
-  
+ 4. Save xml file:
+  - create tree element: `tree = ET.ElementTree(root)`
+  - set indent: `ET.indent(tree)`
+  - save file:
+``` python
+tree.write('path_to_file.xml', encoding ='utf-8', xml_declaration = True)
+```
+
+
 # XML: searching for data  
   
 Write three functions:  
