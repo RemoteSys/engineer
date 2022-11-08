@@ -10,6 +10,20 @@ This module handles the argument list provided by `sys.argv`.
 2. Python `sys.argv` [doc](https://docs.python.org/3/library/sys.html#sys.argv)
 
 
+# Test `sys.argv`
+ > - create test script: `test.py`
+ > - add 2 lines of code to the script:
+```python
+import sys
+print(sys.argv)
+```
+
+ > - run the script several times with different arguments to see `sys.argv` in action e.g.:
+```
+python test.py 20 abc -o 677 --arg3 xxxx
+```
+
+
 # Short
 
 1. Create an argument parser object:
