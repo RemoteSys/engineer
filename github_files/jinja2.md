@@ -57,3 +57,21 @@ with open(...) as f:
 
 ```
 
+
+# Miscellaneous
+
+## To display the form
+```python
+content = env.loader.get_source(env, templ.name)
+print(content[0])
+
+```
+
+## To list variables
+```python
+from jinja2 import meta
+
+content_parse = env.parse(content)
+variables = meta.find_undeclared_variables(content_parse)
+print(variables)
+```
