@@ -37,10 +37,8 @@ You will use `html` templates in this exercise: [html tutorial](https://www.w3sc
 - save the template as a text file, e.g. `templ_01.html`
 - create an environment object:
 ```python
-env = Environment(
-    loader=jinja2.FileSystemLoader("templates",encoding='utf-8'),
-    autoescape=select_autoescape()
-)
+env = jinja2.Environment(
+    loader=jinja2.FileSystemLoader("templates",encoding='utf-8'))
 ```
 
 - prepare the data for the form:
@@ -51,7 +49,7 @@ data = {'title': 'some title', 'header1': '....', 'table': html_table}
 - get template, render it and save the result to disk:
 ```python
 templ = env.get_template('templ_01.html')
-templ.render(data)
+rap = templ.render(data)
 
 # save
 with open(...) as f:
