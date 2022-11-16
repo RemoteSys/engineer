@@ -63,5 +63,5 @@ It is possible to use python to recognize the encoding:
  ```
 
  - the `coding_list` contains the names of the encodings detected in the file, which can be used 
-   to read the file by specifying the `encoding = coding_name` argument, e.g. `open(file_path, 
-   encoding = coding_name)`.
+   to read the file by specifying the `encoding` argument, e.g.:
+   `open(file_path, encoding = coding_name)`.

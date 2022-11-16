@@ -1,6 +1,6 @@
 # Task
 
-1. Account registration on the `kaggle` website
+1. Account registration on the `kaggle` [website](https://www.kaggle.com/account/login?phase=startRegisterTab&returnUrl=%2F)
 2. Data download
 3. Pre-processing
    - data reading
