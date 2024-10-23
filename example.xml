@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <id id_num="1">
+        <person role="student">
+            <name>John Doe</name>
+            <age>25</age>
+            <country continent="Europe">Poland</country>
+        </person>
+    </id>
+    <id id_num="2">
+        <person role="teacher">
+            <name>Jane Smith</name>
+            <age>40</age>
+        </person>
+    </id>
+    <id id_num="3">
+        <person role="engineer">
+            <name>Michael Johnson</name>
+            <age>30</age>
+        </person>
+    </id>
+    <id id_num="4">
+        <person role="artist">
+            <name>Emily Davis</name>
+            <age>35</age>
+        </person>
+    </id>
+    <id id_num="5">
+        <person role="doctor">
+            <name>Robert Brown</name>
+            <age>45</age>
+        </person>
+    </id>
+    <id id_num="6">
+        <person role="nurse">
+            <name>Linda Wilson</name>
+            <age>29</age>
+        </person>
+    </id>
+    <id id_num="7">
+        <person role="lawyer">
+            <name>Paul Martinez</name>
+            <age>37</age>
+        </person>
+    </id>
+    <id id_num="8">
+        <person role="developer">
+            <name>Laura Anderson</name>
+            <age>27</age>
+            <country continent="North America">United States</country>
+        </person>
+    </id>
+    <id id_num="9">
+        <person role="writer">
+            <name>Mark Taylor</name>
+            <age>33</age>
+        </person>
+    </id>
+    <id id_num="10">
+        <person role="manager">
+            <name>Sarah Thomas</name>
+            <age>42</age>
+        </person>
+    </id>
+</data>

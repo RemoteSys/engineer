@@ -1,0 +1,11 @@
+id_num,name,age,role,country,continent
+1,John Doe,25,student,Poland,Europe
+2,Jane Smith,40,teacher,,
+3,Michael Johnson,30,engineer,,
+4,Emily Davis,35,artist,,
+5,Robert Brown,45,doctor,,
+6,Linda Wilson,29,nurse,,
+7,Paul Martinez,37,lawyer,,
+8,Laura Anderson,27,developer,United States,North America
+9,Mark Taylor,33,writer,,
+10,Sarah Thomas,42,manager,,
