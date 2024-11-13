@@ -8,6 +8,7 @@ from pathlib import Path
 
 import csv_functions as csv_fn
 import xml_functions as xml_fn
+import json_functions as js_fn
 # ---
 
 
@@ -58,10 +59,16 @@ def from_xml(path: str) -> dict:
 def from_csv(path: str) -> dict:
     data = csv_fn.read_csv(path)
     data = csv_fn.csv_to_dict(data)
-    return data
+    name = f"{Path(path).stem}_res.json"
+    path = str(Path(path).with_name(name))
+    js_fn.save_as_json(data, path) 
+    # return data
 # ---
 
 
-def from_json():
-    pass
+def from_json(path: str):
+    data = js_fn.read_json(path)
+    name = f"{Path(path).stem}_res.csv"
+    path = str(Path(path).with_name(name))
+    csv_fn.save_as_csv(data, path)
 # ---

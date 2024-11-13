@@ -55,3 +55,14 @@ def csv_to_dict(data: list[list]) -> dict:
             data_dict[key].append(val)
 
     return dict(data_dict)
+# ---
+
+
+def save_as_csv(data: dict, path):
+    headers = data.keys()
+    data = zip(*data.values())
+
+    with open(path, mode='w', newline='') as fp:
+        writer = csv.writer(fp)
+        writer.writerow(headers)
+        writer.writerows(data)
