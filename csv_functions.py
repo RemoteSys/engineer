@@ -1,5 +1,5 @@
 import csv
-from collections import Counter
+from collections import Counter, defaultdict
 from pathlib import Path
 
             
@@ -27,7 +27,7 @@ def convert2numeric(x: str):
             return x
 
 
-def read_csv(path: str, n: int = 5) -> list:
+def read_csv(path: str, n: int = 5) -> list[list]:
     sep, decimal = scan_csv(path, n=n)
     with open(path) as f:
         reader = csv.reader(f, delimiter=sep)
@@ -41,3 +41,17 @@ def read_csv(path: str, n: int = 5) -> list:
         return data
             
             
+def csv_to_dict(data: list[list]) -> dict:
+    """Converts a list of data of type:
+      - [[headers], [values], values],...]
+    to a dictionary of columns:
+      - {head: [...], head: [...], ...}"""
+    data = data[:]
+    data_dict = defaultdict(list)
+    headers = data.pop(0)
+      
+    for row in data:
+        for key, val in zip(headers, row):
+            data_dict[key].append(val)
+
+    return dict(data_dict)
